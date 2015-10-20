@@ -1,0 +1,10 @@
+<template name="Timer">
+  <div class="timer column">
+    <div class="ui center aligned segment square">
+      <h4>{{this.name}}</h4>
+      {{#if running}}
+          {{time}}
+      {{/if}}
+    </div>
+  </div>
+</template>

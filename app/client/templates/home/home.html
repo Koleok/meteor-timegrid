@@ -1,0 +1,11 @@
+<template name="Home">
+  <div class="home ui container">
+    <div class="ui three column grid">
+
+      {{#each timers}}
+        {{> Timer}}
+      {{/each}}
+
+    </div>
+  </div>
+</template>
